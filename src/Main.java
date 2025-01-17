@@ -17,6 +17,9 @@ public class Main {
         double result = 0;
 
         switch (op) {
+            case '-':
+                result = num1 - num2;
+                break;
             default:
                 System.out.println("You enter wrong input");
         }
